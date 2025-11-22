@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-deprecated -- MUI still supports these props while slots migration is pending */
 import React from 'react'
 import prettyBytes from 'pretty-bytes'
 import Input from '@components/Input/Input'

@@ -1,3 +1,7 @@
+Forked from https://github.com/viclafouch/mui-file-input
+
+Updated for MUIv7
+
 <div align="center">
   <img src="https://viclafouch.github.io/mui-file-input/img/logo.svg" width="80" />
 

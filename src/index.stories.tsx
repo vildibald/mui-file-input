@@ -2,7 +2,7 @@ import React from 'react'
 import AttachFileIcon from '@mui/icons-material/AttachFile'
 import CloseIcon from '@mui/icons-material/Close'
 import { createTheme, ThemeProvider } from '@mui/material'
-import { Meta, StoryFn } from '@storybook/react'
+import type { Meta, StoryFn } from '@storybook/react'
 import { MuiFileInput } from './index'
 
 export default {
@@ -27,6 +27,7 @@ export const Primary: StoryFn<typeof MuiFileInput> = () => {
         clearIconButtonProps={{
           children: <CloseIcon fontSize="small" />
         }}
+        // eslint-disable-next-line @typescript-eslint/no-deprecated -- Story still demonstrates existing prop usage
         InputProps={{
           startAdornment: <AttachFileIcon />
         }}
